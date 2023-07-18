@@ -5,9 +5,9 @@
  *         0, otherwise
  * @c: parameter to be checked
 */
-int _islower(int c)
+int _islower (int c)
 {
-if(c >= 'a' && c <= 'z')
+if (c >= 'a' && c <= 'z')
 	{
 	return (1);
 	}
