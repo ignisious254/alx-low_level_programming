@@ -7,7 +7,6 @@
  * everytime it executes
  * Return:exit (SUCCESS)
  */
-
 int main(void)
 {
 	int n;
