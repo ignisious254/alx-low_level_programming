@@ -10,7 +10,7 @@ char T;
 int y = 0;
 while (y < 10)
 {
-for (T = 'a'; T <= 'z'; x++)
+for (T = 'a'; T <= 'z'; T++)
 {
 _putchar(T);
 }
