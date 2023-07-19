@@ -5,7 +5,7 @@
 /**
  * main - generate random number and assigned to int
  * everytime it executes
- * Return:exit (SUCCESS)
+ * Return: exit (SUCCESS)
  */
 int main(void)
 {
