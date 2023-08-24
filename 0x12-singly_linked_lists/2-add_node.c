@@ -22,14 +22,8 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	new_node->str = strdup(str);/*duplicate the string with strdup*/
-	if (new_node->str == NULL)
-	{
-		free(new_node);
-		return (NULL);
-	}
-
 	new_node->next = *head;/*change position of the head to the new node*/
 	*head = new_node;
 
-	return (new_node);
+	return (*head);
 }
